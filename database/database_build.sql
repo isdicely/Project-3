@@ -1,3 +1,5 @@
+-- Create a database in PGAdmin named "wine-quality" and then open and run this script
+
 -- Creating the red wine data table and importing data
 
 CREATE TABLE red_wines (
