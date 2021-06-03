@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Project Design</title>
+</head>
+
+<body>
+    <!-- Using bootstrap for navbar logo "Dashboard" -->
+    <nav class="navbar navbar-expand-lg wine-background-text">
+        <a class="navbar-brand mr-auto" href="project_design.html" style="color:black">
+            <strong>Project Design</strong>
+        </a>
+        <!-- Adding a colapsible button as screen size decreases -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar nav ml-auto">
+                <!-- Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color:black">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project_design.html" style="color:black">Project Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wine_measurements.html" style="color:black">Wine Measurements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html" style="color:black">Dataset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="visualizations.html" style="color:black">Visualizations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="analysis.html" style="color:black">Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html" style="color:black">Resources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <!-- Unordered list of resources for the dataset -->
+        <div class="row">
+            <div class="col-md-12 body-section">
+                <h3>Project Design for Project 3: Wine Quality Data</h3>
+                <br>
+                <h4>Overview</h4>
+                    <p>Let’s talk about wine quality! What makes a good wine? We know everyone has 
+                        their own particular wine preferences, but are there any scientific measures 
+                        that indicate a good or bad wine? If so, what are the max and min acceptable 
+                        ranges for different measures to still have a good wine? Which measures are 
+                        more important for the overall quality score versus the ones that don’t affect 
+                        it too much? And what does the user’s preference for wine type say about their 
+                        taste in wine quality?
+ 
+                    </p>
+                <br>
+                <h4>Data</h4>
+                    <p>Our data measured a number of things for each wine: </p>
+                <ul>
+                    <li>Fixed acidity</li>
+                    <li>Volatile acidity</li>
+                    <li>Citric acid</li>
+                    <li>Residual sugar</li>
+                    <li>Chlorides</li>
+                    <li>Free sulfur dioxide</li>
+                    <li>Total sulfur dioxide</li>
+                    <li>Density</li>
+                    <li>pH</li>
+                    <li>Sulphates</li>
+                    <li>Alcohol</li>
+                    <li>Output variable (based on sensory data): Quality Score (score between 0 and 10)</li>
+                </ul>
+                <p>Each of these categories is a numberical value, which are then used to determine the Quality Score. </p>
+                <br>
+                <h4>Data Sources</h4>
+                  <p>Our data comes from a University of Californa - Irvine study done on wine quality from 2009, source data and information can be found on the <a href="resources.html">Resources page</a> as well as in our "data" folder of the repo.</p>
+                <br>
+                <h4>Project Artifacts</h4>
+                    <p>The project used a combination of ________________ all stored within the "design" folder and consists of:
+                    </p>
+                <ul>
+                    <li>___</li>
+                    <li>style.css file, which creates the css used on the site</li>
+                </ul>
+                    <p>A series of html files that together create our website via a series of links:</p>
+                <ul>
+                    <li>analysis.html, which calls the .png files from the "output" folder</li>
+                    <li>data.html, which codes for the "Dataset" page of the website and codes for its table</li>
+                    <li>index.html, which codes for the "Wine Quality Overview" page of the website</li>
+                    <li>project_design.html, which codes for the "Project Design" page of the website</li>
+                    <li>wine_measurements.html, which codes for the "Wine Measurements" page of the website</li>
+                    <li>resources.html, which codes for the "Resources" page of the website</li>
+                    <li>visualizations.html, which codes for the "Visualizations" page of the website</li>
+                </ul>  
+                    <p>A series of .js Javascript files to create our data tables, ___, and ___ which consists of:</p>
+                <ul>
+                    <li>__</li>
+                    <li>__</li>
+                    <li>config.js, which contains the API key</li>
+                    <li>data_table.js, which pulls in data from the .csv and creates the data tables on our "Dataset" page</li>
+                    <li>__</li>
+                </ul>  
+                <br>
+                <h4>Findings Recap</h4>
+                <p>__<br>__. More info on these associations can be found on the <a href="analysis.html">Analysis page.</a></p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>                   
