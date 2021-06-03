@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/static/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
+        <title>Predication</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <form action="/predict" method="POST">
+                        fixed acidity<input type="range" name="fixed_acidity" value="0.0" min="0.0" max="10" step="0.1"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
+                        <p></p>
+
+                        volatile acidity<input type="range" name="volatile_acidity" value="0" min="0.0" max="1.00"
+                            step="0.01" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
+                        <p></p>
+
+                        citric acid<input type="range" name="citric_acid" value="0" min="0" max="1.00" step="0.01"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
+                        <p></p>
+
+                        residual sugar<input type="range" name="residual_sugar" value="0.0" min="0.0" max="10"
+                            step="0.1" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
+                        <p></p>
+
+                        chlorides<input type="range" name="chlorides" value="0" min="0.0" max="1.000" step="0.001"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.000</output>
+                        <p></p>
+
+                        free_sulfur_dioxide<input type="range" name="free_sulfur_dioxide" value="0" min="0" max="1.0"
+                            step="0.1" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
+                        <p></p>
+
+                        total_sulfur_dioxide<input type="range" name="total_sulfur_dioxide" value="0.0" min="0.0"
+                            max="30" step="0.1"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
+                        <p></p>
+
+                        density<input type="range" name="density" value="0" min="0.0" max="1.00" step="0.0001"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0000</output>
+                        <p></p>
+
+                        pH<input type="range" name="pH" value="0" min="0" max="1.00" step="0.01"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
+                        <p></p>
+
+                        sulphates<input type="range" name="sulphates" value="0.0" min="0.0" max="10" step="0.01"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
+                        <p></p>
+
+                        alcohol<input type="range" name="alcohol" value="0" min="0.0" max="1.000" step="0.1"
+                            oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
+                        <p></p>
+
+                        <input type="submit">
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    fixed acidity: &nbsp;&nbsp; {{ predict_list[0] }}
+                    <p></p>
+                    volatile acidity: &nbsp;&nbsp; {{ predict_list[1] }}
+                    <p></p>
+                    citric acid: &nbsp;&nbsp; {{ predict_list[2] }}
+                    <p></p>
+                    residual sugar: &nbsp;&nbsp; {{ predict_list[3] }}
+                    <p></p>
+                    chlorides: &nbsp;&nbsp; {{ predict_list[4] }}
+                    <p></p>
+                    free sulfur dioxide: &nbsp;&nbsp; {{ predict_list[5] }}
+                    <p></p>
+                    total sulfur dioxide: &nbsp;&nbsp; {{ predict_list[6] }}
+                    <p></p>
+                    density: &nbsp;&nbsp; {{ predict_list[7] }}
+                    <p></p>
+                    pH: &nbsp;&nbsp; {{ predict_list[8] }}
+                    <p></p>
+                    sulphates: &nbsp;&nbsp; {{ predict_list[9] }}
+                    <p></p>
+                    alcohol: &nbsp;&nbsp; {{ predict_list[10] }}
+                    <p></p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    {{prediction|safe}}
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
