@@ -4,8 +4,9 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def home():
-    return render_template('predict.html')
+def home(): 
+    predict_list = []
+    return render_template('predict.html' , predict_list=predict_list)
 
 
 @app.route('/predict', methods=['POST'])
