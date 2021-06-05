@@ -26,49 +26,75 @@
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
                     <p></p>
 
-                    Volatile Acidity<input type="range" name="volatile_acidity" class="slider" value="0" min="0.0" max="1.00"
+                    Volatile Acidity &nbsp;<input type="range" name="volatile_acidity" class="slider" value="0" min="0.0" max="1.00"
                         step="0.01" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
                     <p></p>
 
-                    Citric Acid<input type="range" name="citric_acid" class="slider" value="0" min="0" max="1.00" step="0.01"
+                    Citric Acid &nbsp;<input type="range" name="citric_acid" class="slider" value="0" min="0" max="1.00" step="0.01"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
                     <p></p>
 
-                    Residual Sugar<input type="range" name="residual_sugar" class="slider" value="0.0" min="0.0" max="10"
+                    Residual Sugar &nbsp;<input type="range" name="residual_sugar" class="slider" value="0.0" min="0.0" max="10"
                         step="0.1" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
                     <p></p>
 
-                    Chlorides<input type="range" name="chlorides" class="slider" value="0" min="0.0" max="1.000" step="0.001"
+                    Chlorides &nbsp;<input type="range" name="chlorides" class="slider" value="0" min="0.0" max="1.000" step="0.001"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.000</output>
                     <p></p>
 
-                    Free_Sulfur_Dioxide<input type="range" name="free_sulfur_dioxide" class="slider" value="0" min="0" max="1.0"
+                    Free_Sulfur_Dioxide &nbsp;<input type="range" name="free_sulfur_dioxide" class="slider" value="0" min="0" max="1.0"
                         step="0.1" oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
                     <p></p>
 
-                    Total_Sulfur_Dioxide<input type="range" name="total_sulfur_dioxide" class="slider" value="0.0" min="0.0"
+                    Total_Sulfur_Dioxide &nbsp;<input type="range" name="total_sulfur_dioxide" class="slider" value="0.0" min="0.0"
                         max="30" step="0.1"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
                     <p></p>
 
-                    Density<input type="range" name="density" class="slider" value="0" min="0.0" max="1.00" step="0.0001"
+                    Density &nbsp;<input type="range" name="density" class="slider" value="0" min="0.0" max="1.00" step="0.0001"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0000</output>
                     <p></p>
 
-                    pH<input type="range" name="pH" class="slider" value="0" min="0" max="1.00" step="0.01"
+                    pH &nbsp;<input type="range" name="pH" class="slider" value="0" min="0" max="1.00" step="0.01"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
                     <p></p>
 
-                    Sulphates<input type="range" name="sulphates" class="slider" value="0.0" min="0.0" max="10" step="0.01"
+                    Sulphates &nbsp;<input type="range" name="sulphates" class="slider" value="0.0" min="0.0" max="10" step="0.01"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.00</output>
                     <p></p>
 
-                    Alcohol<input type="range" name="alcohol" class="slider" value="0" min="0.0" max="1.000" step="0.1"
+                    Alcohol &nbsp;<input type="range" name="alcohol" class="slider" value="0" min="0.0" max="1.000" step="0.1"
                         oninput="this.nextElementSibling.value = this.value">&nbsp;<output>0.0</output>
                     <p></p>
-
-                </div>
+                    <input type="submit">
+                </form>
             </div>
+
+            <div class="col-md-6">
+                Fixed acidity: &nbsp;&nbsp; {{ predict_list[0] }}
+                <p></p>
+                Volatile Acidity: &nbsp;&nbsp; {{ predict_list[1] }}
+                <p></p>
+                Citric Acid: &nbsp;&nbsp; {{ predict_list[2] }}
+                <p></p>
+                Residual Sugar: &nbsp;&nbsp; {{ predict_list[3] }}
+                <p></p>
+                Chlorides: &nbsp;&nbsp; {{ predict_list[4] }}
+                <p></p>
+                Free Sulfur Dioxide: &nbsp;&nbsp; {{ predict_list[5] }}
+                <p></p>
+                Total Sulfur Dioxide: &nbsp;&nbsp; {{ predict_list[6] }}
+                <p></p>
+                Density: &nbsp;&nbsp; {{ predict_list[7] }}
+                <p></p>
+                pH: &nbsp;&nbsp; {{ predict_list[8] }}
+                <p></p>
+                Sulphates: &nbsp;&nbsp; {{ predict_list[9] }}
+                <p></p>
+                Alcohol: &nbsp;&nbsp; {{ predict_list[10] }}
+                <p></p>
+            </div>
+        </div>
 
             <div class="row">
                 <div class="col-md-12">
