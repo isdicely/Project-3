@@ -15,6 +15,10 @@ def home():
     return render_template('predict_ISD.html' , predict_list=predict_list)
 
 
+@app.route('/resources')
+def resources(): 
+    return render_template('resources.html')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     predict_list = []
@@ -60,3 +64,5 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
