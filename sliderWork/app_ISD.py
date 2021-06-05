@@ -2,7 +2,7 @@
 from pycaret.classification import load_model, predict_model
 import pandas as pd
 
-saved_final_rf = load_model('Final RF Model 2Jun2021')
+saved_final_rf = load_model('Final WHites RF Project-3 June2021')
 
 from flask import Flask, request, render_template, jsonify
 
@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route('/')
 def home(): 
     predict_list = []
-    return render_template('predict.html' , predict_list=predict_list)
+    return render_template('predict_ISD.html' , predict_list=predict_list)
 
 
 @app.route('/predict', methods=['POST'])
@@ -55,7 +55,7 @@ def predict():
     # can pass one variable for reds and one for whites
     # in the return pass for prediction "table_red" or "table_white"
     table = new_prediction.to_html()
-    return render_template('predict.html', predict_list=predict_list, prediction = table)
+    return render_template('predict_ISD.html', predict_list=predict_list, prediction = table)
 
 
 if __name__ == "__main__":
