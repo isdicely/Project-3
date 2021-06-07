@@ -71,45 +71,35 @@ d3.csv("/static/winequality-TOTAL.csv").then(function (data) {
   }
   make_table(data);
 
-
-
   // THIS IS WHERE YOU LEFT OFF
-  
+
   let lastSelectedQuality = QualityDropdownMenu.value;
   function updateTable(event) {
     // Prevent the page from refreshing
     event.preventDefault();
     // Clear any input
     while (tbody.firstChild) tbody.removeChild(tbody.lastChild);
-    
+
     // Retrive quality selected
     const quality_selected = QualityDropdownMenu.value;
     if (lastSelectedQuality !== quality_selected) {
       lastSelectedQuality = quality_selected;
       const hasQuality = lastSelectedQuality !== "";
-      winetypeDropdownMenu.innerHTML = "";
       const qualityWineType = new Set(
         data.flatMap((entry) =>
           !hasQuality || lastSelectedQuality === entry.quality ? entry.type : []
         )
       );
-      winetypeDropdownMenu.appendChild(opt_all_winetype);
-      [...qualityWineType].sort().forEach((country) => {
-        const opt = document.createElement("option");
-        opt.value = country;
-        opt.innerHTML = country;
-        winetypeDropdownMenu.appendChild(opt);
-      });
     }
 
     // Retrive type selected
     const winetype_selected = winetypeDropdownMenu.value;
-    
+
     if (winetype_selected === "") {
       if (quality_selected === "") {
         make_table(data);
       } else {
-        // Filter data based on selected region
+        // filter data based on quality
         const quality_filtered_display_data = data.filter(
           (entry) => entry.quality === quality_selected
         );
@@ -117,12 +107,22 @@ d3.csv("/static/winequality-TOTAL.csv").then(function (data) {
         make_table(quality_filtered_display_data);
       }
     } else {
-      // Filter data based on selected country
+      // Filter data based on selected wine type
       const winetype_filtered_display_data = data.filter(
         (entry) => entry.type === winetype_selected
       );
 
-      make_table(winetype_filtered_display_data);
+      // check if we also need to filter by quality,
+      // and do so, if needed
+
+      filtered_display_data =
+        quality_selected === ""
+          ? winetype_filtered_display_data
+          : winetype_filtered_display_data.filter(
+              (entry) => entry.quality === quality_selected
+            );
+
+      make_table(filtered_display_data);
     }
   }
   // Create event handler, set on chage
