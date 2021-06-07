@@ -13,11 +13,17 @@ app = Flask(__name__)
 def home(): 
     predict_list = []
     return render_template('predict_ISD.html' , predict_list=predict_list)
+  
 
 
 @app.route('/resources')
 def resources(): 
     return render_template('resources.html')
+
+#@app.route('/prediction')
+#def prediction(): 
+#    predict_list = []
+#    return render_template('predict_ISD.html' , predict_list=predict_list)
 
 @app.route('/predict', methods=['POST'])
 def predict():
