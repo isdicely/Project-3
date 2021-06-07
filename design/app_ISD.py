@@ -8,22 +8,38 @@ from flask import Flask, request, render_template, jsonify
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home(): 
-    predict_list = []
-    return render_template('predict_ISD.html' , predict_list=predict_list)
-  
+    return render_template('index.html')
 
+@app.route('/project_design')
+def project_design(): 
+    return render_template('project_design.html')
+
+@app.route('/wine_measurements')
+def wine_measurements(): 
+    return render_template('wine_measurements.html')
+
+@app.route('/data')
+def data(): 
+    return render_template('data.html')
+
+@app.route('/visualizations')
+def visualizations(): 
+    return render_template('visualizations.html')
+
+@app.route('/analysis')
+def analysis(): 
+    return render_template('analysis.html')
 
 @app.route('/resources')
 def resources(): 
     return render_template('resources.html')
 
-#@app.route('/prediction')
-#def prediction(): 
-#    predict_list = []
-#    return render_template('predict_ISD.html' , predict_list=predict_list)
+@app.route('/prediction')
+def prediction(): 
+    predict_list = []
+    return render_template('predict_ISD.html' , predict_list=predict_list)
 
 @app.route('/predict', methods=['POST'])
 def predict():

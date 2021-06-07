@@ -122,3 +122,64 @@
 2021-06-05 14:00:38,052:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
 2021-06-05 14:14:29,932:INFO:Initializing load_model()
 2021-06-05 14:14:29,932:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:11:27,511:INFO:Initializing load_model()
+2021-06-06 22:11:27,512:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:11:30,414:INFO:Initializing load_model()
+2021-06-06 22:11:30,414:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:12:11,095:INFO:Initializing load_model()
+2021-06-06 22:12:11,095:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:13:56,108:INFO:Initializing load_model()
+2021-06-06 22:13:56,108:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:14:13,808:INFO:Initializing load_model()
+2021-06-06 22:14:13,808:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:15:54,218:INFO:Initializing load_model()
+2021-06-06 22:15:54,218:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:15:57,467:INFO:Initializing load_model()
+2021-06-06 22:15:57,468:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:17:03,883:INFO:Initializing load_model()
+2021-06-06 22:17:03,883:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:22:37,366:INFO:Initializing load_model()
+2021-06-06 22:22:37,366:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:25:13,995:INFO:Initializing load_model()
+2021-06-06 22:25:13,996:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:26:34,567:INFO:Initializing load_model()
+2021-06-06 22:26:34,567:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:29:02,660:INFO:Initializing load_model()
+2021-06-06 22:29:02,660:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:29:06,490:INFO:Initializing load_model()
+2021-06-06 22:29:06,490:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:29:33,263:INFO:Initializing load_model()
+2021-06-06 22:29:33,263:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:30:03,460:INFO:Initializing load_model()
+2021-06-06 22:30:03,460:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:30:15,835:INFO:Initializing load_model()
+2021-06-06 22:30:15,835:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:30:18,718:INFO:Initializing load_model()
+2021-06-06 22:30:18,718:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:31:39,168:INFO:Initializing load_model()
+2021-06-06 22:31:39,168:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-06 22:52:50,000:INFO:Initializing predict_model()
+2021-06-06 22:52:50,001:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-06 22:52:50,001:INFO:Checking exceptions
+2021-06-06 22:52:50,001:INFO:Preloading libraries
