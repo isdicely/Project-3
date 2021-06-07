@@ -33,12 +33,55 @@ html, body, #container {
   padding: 0;
 }
 
-/*Style for Leaflet map */
+/*Style for Slider on Model Predictions*/
 
+.container {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 50%; /* Full-width */
+    height: 10px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 10px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: rgb(84, 6, 84); /* Green background */
+    cursor: pointers; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 10px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: rgb(84, 6, 84); /* Green background */
+    cursor: pointers; /* Cursor on hover */
+  }
+
+/* BELOW NOT NEEDED FOR THIS PROJECT  */
+/*Style for Leaflet map */
+/* NOT NEEDED
 .leaflet-popup-content {
   text-align: center;
-}
+} */
   /* CSS copy from the Leaflet-Choropleth documentation */
+/*NOT NEEDED   
 .legend {
   padding: 6px 8px;
   font: 12px Arial, Helvetica, sans-serif;
@@ -81,4 +124,4 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
+} */

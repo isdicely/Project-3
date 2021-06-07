@@ -1,5 +1,5 @@
 // Get data and display
-d3.csv("/data/winequality-TOTAL.csv").then(function (data) {
+d3.csv("/static/winequality-TOTAL.csv").then(function (data) {
   console.log(data);
   //   Set wine type dropdown menu
   const winetypeDropdownMenuSelection = d3.selectAll("#selWineType");
