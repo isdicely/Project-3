@@ -863,3 +863,5 @@
                                         random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
 2021-06-07 20:48:14,503:INFO:Checking exceptions
 2021-06-07 20:48:14,503:INFO:Preloading libraries
+2021-06-07 20:58:57,906:INFO:Initializing load_model()
+2021-06-07 20:58:57,907:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
