@@ -80,7 +80,7 @@ def predict():
     print(new_prediction)
     # can pass one variable for reds and one for whites
     # in the return pass for prediction "table_red" or "table_white"
-    table = new_prediction.to_html()
+    table = new_prediction.to_html(classes="sliderTable table-bordered", index_names = False)
     return render_template('predict_ISD.html', predict_list=predict_list, prediction = table)
 
 

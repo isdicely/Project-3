@@ -33,6 +33,21 @@
   .slider::-moz-range-thumb {
     width: 10px; /* Set a specific slider handle width */
     height: 15px; /* Slider handle height */
-    background: rgb(84, 6, 84); /* Green background */
+    background: rgb(84, 6, 84); /* background */
     cursor: pointers; /* Cursor on hover */
   }
+
+  .sliderTable 
+    th{
+      text-align: center;
+      padding-right: .5em;
+      padding-left: .5em;
+      color: purple;
+      border: .2px solid rgb(84, 6, 84) ;
+    }
+    tr{
+      text-align: center;
+      border-color: rgb(84, 6, 84); 
+      border: .2px solid rgb(84, 6, 84) ;
+    }
+

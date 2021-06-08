@@ -865,3 +865,1322 @@
 2021-06-07 20:48:14,503:INFO:Preloading libraries
 2021-06-07 20:58:57,906:INFO:Initializing load_model()
 2021-06-07 20:58:57,907:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:47:40,458:INFO:Initializing load_model()
+2021-06-08 05:47:40,458:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:47:45,464:INFO:Initializing load_model()
+2021-06-08 05:47:45,464:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:49:52,047:INFO:Initializing load_model()
+2021-06-08 05:49:52,047:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:49:57,679:INFO:Initializing load_model()
+2021-06-08 05:49:57,679:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:50:49,382:INFO:Initializing predict_model()
+2021-06-08 05:50:49,382:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 05:50:49,382:INFO:Checking exceptions
+2021-06-08 05:50:49,383:INFO:Preloading libraries
+2021-06-08 05:50:55,899:INFO:Initializing load_model()
+2021-06-08 05:50:55,899:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:50:55,997:INFO:Initializing load_model()
+2021-06-08 05:50:55,997:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:50:56,413:INFO:Initializing predict_model()
+2021-06-08 05:50:56,413:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 05:50:56,413:INFO:Checking exceptions
+2021-06-08 05:50:56,413:INFO:Preloading libraries
+2021-06-08 05:51:01,965:INFO:Initializing predict_model()
+2021-06-08 05:51:01,966:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 05:51:01,966:INFO:Checking exceptions
+2021-06-08 05:51:01,966:INFO:Preloading libraries
+2021-06-08 05:55:24,809:INFO:Initializing load_model()
+2021-06-08 05:55:24,809:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:55:24,809:INFO:Initializing load_model()
+2021-06-08 05:55:24,809:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:55:43,514:INFO:Initializing load_model()
+2021-06-08 05:55:43,514:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:55:43,531:INFO:Initializing load_model()
+2021-06-08 05:55:43,531:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 05:55:44,244:INFO:Initializing predict_model()
+2021-06-08 05:55:44,244:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 05:55:44,244:INFO:Checking exceptions
+2021-06-08 05:55:44,244:INFO:Preloading libraries
+2021-06-08 05:56:01,069:INFO:Initializing predict_model()
+2021-06-08 05:56:01,070:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 05:56:01,070:INFO:Checking exceptions
+2021-06-08 05:56:01,070:INFO:Preloading libraries
+2021-06-08 06:02:32,294:INFO:Initializing predict_model()
+2021-06-08 06:02:32,295:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:02:32,295:INFO:Checking exceptions
+2021-06-08 06:02:32,295:INFO:Preloading libraries
+2021-06-08 06:02:59,495:INFO:Initializing predict_model()
+2021-06-08 06:02:59,495:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:02:59,496:INFO:Checking exceptions
+2021-06-08 06:02:59,496:INFO:Preloading libraries
+2021-06-08 06:04:15,542:INFO:Initializing predict_model()
+2021-06-08 06:04:15,542:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:04:15,542:INFO:Checking exceptions
+2021-06-08 06:04:15,542:INFO:Preloading libraries
+2021-06-08 06:09:20,227:INFO:Initializing load_model()
+2021-06-08 06:09:20,227:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:09:20,227:INFO:Initializing load_model()
+2021-06-08 06:09:20,227:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:09:50,658:INFO:Initializing load_model()
+2021-06-08 06:09:50,658:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:09:50,668:INFO:Initializing load_model()
+2021-06-08 06:09:50,668:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:09:56,454:INFO:Initializing predict_model()
+2021-06-08 06:09:56,454:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:09:56,454:INFO:Checking exceptions
+2021-06-08 06:09:56,454:INFO:Preloading libraries
+2021-06-08 06:10:02,427:INFO:Initializing load_model()
+2021-06-08 06:10:02,428:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:02,447:INFO:Initializing load_model()
+2021-06-08 06:10:02,447:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:22,354:INFO:Initializing predict_model()
+2021-06-08 06:10:22,354:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:10:22,354:INFO:Checking exceptions
+2021-06-08 06:10:22,354:INFO:Preloading libraries
+2021-06-08 06:10:29,238:INFO:Initializing load_model()
+2021-06-08 06:10:29,238:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:29,246:INFO:Initializing load_model()
+2021-06-08 06:10:29,246:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:56,248:INFO:Initializing load_model()
+2021-06-08 06:10:56,248:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:56,252:INFO:Initializing load_model()
+2021-06-08 06:10:56,253:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:10:58,424:INFO:Initializing predict_model()
+2021-06-08 06:10:58,425:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:10:58,425:INFO:Checking exceptions
+2021-06-08 06:10:58,425:INFO:Preloading libraries
+2021-06-08 06:16:23,911:INFO:Initializing load_model()
+2021-06-08 06:16:23,911:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:16:23,923:INFO:Initializing load_model()
+2021-06-08 06:16:23,923:INFO:load_model(model_name=Final WHites RF Project-3 June2021, platform=None, authentication=None, verbose=True)
+2021-06-08 06:16:24,395:INFO:Initializing predict_model()
+2021-06-08 06:16:24,395:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:16:24,395:INFO:Checking exceptions
+2021-06-08 06:16:24,395:INFO:Preloading libraries
+2021-06-08 06:16:24,818:INFO:Initializing predict_model()
+2021-06-08 06:16:24,818:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:16:24,818:INFO:Checking exceptions
+2021-06-08 06:16:24,818:INFO:Preloading libraries
+2021-06-08 06:18:00,232:INFO:Initializing predict_model()
+2021-06-08 06:18:00,232:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:18:00,233:INFO:Checking exceptions
+2021-06-08 06:18:00,233:INFO:Preloading libraries
+2021-06-08 06:18:34,890:INFO:Initializing predict_model()
+2021-06-08 06:18:34,890:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:18:34,890:INFO:Checking exceptions
+2021-06-08 06:18:34,890:INFO:Preloading libraries
+2021-06-08 06:19:05,603:INFO:Initializing predict_model()
+2021-06-08 06:19:05,603:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:19:05,603:INFO:Checking exceptions
+2021-06-08 06:19:05,603:INFO:Preloading libraries
+2021-06-08 06:21:16,491:INFO:Initializing predict_model()
+2021-06-08 06:21:16,492:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:21:16,493:INFO:Checking exceptions
+2021-06-08 06:21:16,493:INFO:Preloading libraries
+2021-06-08 06:21:33,994:INFO:Initializing predict_model()
+2021-06-08 06:21:33,994:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:21:33,994:INFO:Checking exceptions
+2021-06-08 06:21:33,995:INFO:Preloading libraries
+2021-06-08 06:22:11,314:INFO:Initializing predict_model()
+2021-06-08 06:22:11,315:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:22:11,315:INFO:Checking exceptions
+2021-06-08 06:22:11,315:INFO:Preloading libraries
+2021-06-08 06:22:54,850:INFO:Initializing predict_model()
+2021-06-08 06:22:54,851:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:22:54,851:INFO:Checking exceptions
+2021-06-08 06:22:54,851:INFO:Preloading libraries
+2021-06-08 06:23:29,160:INFO:Initializing predict_model()
+2021-06-08 06:23:29,160:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:23:29,160:INFO:Checking exceptions
+2021-06-08 06:23:29,160:INFO:Preloading libraries
+2021-06-08 06:26:01,285:INFO:Initializing predict_model()
+2021-06-08 06:26:01,285:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:26:01,285:INFO:Checking exceptions
+2021-06-08 06:26:01,286:INFO:Preloading libraries
+2021-06-08 06:26:41,508:INFO:Initializing predict_model()
+2021-06-08 06:26:41,508:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:26:41,509:INFO:Checking exceptions
+2021-06-08 06:26:41,509:INFO:Preloading libraries
+2021-06-08 06:27:15,506:INFO:Initializing predict_model()
+2021-06-08 06:27:15,506:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:27:15,507:INFO:Checking exceptions
+2021-06-08 06:27:15,507:INFO:Preloading libraries
+2021-06-08 06:30:03,809:INFO:Initializing predict_model()
+2021-06-08 06:30:03,809:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:30:03,809:INFO:Checking exceptions
+2021-06-08 06:30:03,809:INFO:Preloading libraries
+2021-06-08 06:31:14,738:INFO:Initializing predict_model()
+2021-06-08 06:31:14,738:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:31:14,738:INFO:Checking exceptions
+2021-06-08 06:31:14,738:INFO:Preloading libraries
+2021-06-08 06:32:54,849:INFO:Initializing predict_model()
+2021-06-08 06:32:54,851:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:32:54,851:INFO:Checking exceptions
+2021-06-08 06:32:54,851:INFO:Preloading libraries
+2021-06-08 06:33:03,285:INFO:Initializing predict_model()
+2021-06-08 06:33:03,285:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:33:03,285:INFO:Checking exceptions
+2021-06-08 06:33:03,286:INFO:Preloading libraries
+2021-06-08 06:33:38,654:INFO:Initializing predict_model()
+2021-06-08 06:33:38,654:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:33:38,654:INFO:Checking exceptions
+2021-06-08 06:33:38,654:INFO:Preloading libraries
+2021-06-08 06:34:44,549:INFO:Initializing predict_model()
+2021-06-08 06:34:44,550:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:34:44,550:INFO:Checking exceptions
+2021-06-08 06:34:44,550:INFO:Preloading libraries
+2021-06-08 06:35:26,834:INFO:Initializing predict_model()
+2021-06-08 06:35:26,834:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:26,835:INFO:Checking exceptions
+2021-06-08 06:35:26,835:INFO:Preloading libraries
+2021-06-08 06:35:33,660:INFO:Initializing predict_model()
+2021-06-08 06:35:33,660:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:33,660:INFO:Checking exceptions
+2021-06-08 06:35:33,660:INFO:Preloading libraries
+2021-06-08 06:35:35,429:INFO:Initializing predict_model()
+2021-06-08 06:35:35,429:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:35,429:INFO:Checking exceptions
+2021-06-08 06:35:35,429:INFO:Preloading libraries
+2021-06-08 06:35:39,524:INFO:Initializing predict_model()
+2021-06-08 06:35:39,524:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:39,525:INFO:Checking exceptions
+2021-06-08 06:35:39,525:INFO:Preloading libraries
+2021-06-08 06:35:47,720:INFO:Initializing predict_model()
+2021-06-08 06:35:47,720:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:47,720:INFO:Checking exceptions
+2021-06-08 06:35:47,720:INFO:Preloading libraries
+2021-06-08 06:35:53,470:INFO:Initializing predict_model()
+2021-06-08 06:35:53,470:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:35:53,470:INFO:Checking exceptions
+2021-06-08 06:35:53,471:INFO:Preloading libraries
+2021-06-08 06:38:01,188:INFO:Initializing predict_model()
+2021-06-08 06:38:01,189:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:38:01,189:INFO:Checking exceptions
+2021-06-08 06:38:01,189:INFO:Preloading libraries
+2021-06-08 06:39:31,415:INFO:Initializing predict_model()
+2021-06-08 06:39:31,416:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:39:31,416:INFO:Checking exceptions
+2021-06-08 06:39:31,416:INFO:Preloading libraries
+2021-06-08 06:39:39,091:INFO:Initializing predict_model()
+2021-06-08 06:39:39,092:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:39:39,092:INFO:Checking exceptions
+2021-06-08 06:39:39,092:INFO:Preloading libraries
+2021-06-08 06:40:25,816:INFO:Initializing predict_model()
+2021-06-08 06:40:25,816:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:40:25,816:INFO:Checking exceptions
+2021-06-08 06:40:25,816:INFO:Preloading libraries
+2021-06-08 06:40:32,230:INFO:Initializing predict_model()
+2021-06-08 06:40:32,230:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:40:32,231:INFO:Checking exceptions
+2021-06-08 06:40:32,231:INFO:Preloading libraries
+2021-06-08 06:41:47,040:INFO:Initializing predict_model()
+2021-06-08 06:41:47,040:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:41:47,040:INFO:Checking exceptions
+2021-06-08 06:41:47,040:INFO:Preloading libraries
+2021-06-08 06:41:58,354:INFO:Initializing predict_model()
+2021-06-08 06:41:58,367:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:41:58,382:INFO:Checking exceptions
+2021-06-08 06:41:58,390:INFO:Preloading libraries
+2021-06-08 06:42:01,851:INFO:Initializing predict_model()
+2021-06-08 06:42:01,862:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:42:01,878:INFO:Checking exceptions
+2021-06-08 06:42:01,890:INFO:Preloading libraries
+2021-06-08 06:42:31,531:INFO:Initializing predict_model()
+2021-06-08 06:42:31,531:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:42:31,531:INFO:Checking exceptions
+2021-06-08 06:42:31,532:INFO:Preloading libraries
+2021-06-08 06:43:09,559:INFO:Initializing predict_model()
+2021-06-08 06:43:09,559:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:43:09,559:INFO:Checking exceptions
+2021-06-08 06:43:09,559:INFO:Preloading libraries
+2021-06-08 06:43:39,389:INFO:Initializing predict_model()
+2021-06-08 06:43:39,389:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:43:39,390:INFO:Checking exceptions
+2021-06-08 06:43:39,390:INFO:Preloading libraries
+2021-06-08 06:43:43,158:INFO:Initializing predict_model()
+2021-06-08 06:43:43,159:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:43:43,159:INFO:Checking exceptions
+2021-06-08 06:43:43,159:INFO:Preloading libraries
+2021-06-08 06:45:25,796:INFO:Initializing predict_model()
+2021-06-08 06:45:25,796:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:45:25,796:INFO:Checking exceptions
+2021-06-08 06:45:25,796:INFO:Preloading libraries
+2021-06-08 06:45:30,449:INFO:Initializing predict_model()
+2021-06-08 06:45:30,449:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:45:30,449:INFO:Checking exceptions
+2021-06-08 06:45:30,450:INFO:Preloading libraries
+2021-06-08 06:45:33,772:INFO:Initializing predict_model()
+2021-06-08 06:45:33,773:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='quality_category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'freq...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False, class_weight={},
+                                        max_depth=3, max_features='sqrt',
+                                        min_impurity_decrease=0.1,
+                                        min_samples_leaf=4, min_samples_split=9,
+                                        n_estimators=70, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-08 06:45:33,773:INFO:Checking exceptions
+2021-06-08 06:45:33,773:INFO:Preloading libraries
