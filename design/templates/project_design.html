@@ -94,30 +94,63 @@
                   <p>Our data comes from a University of Californa - Irvine study done on wine quality from 2009, source data and information can be found on the <a href="resources.html">Resources page</a> as well as in our "data" folder of the repo.</p>
                 <br>
                 <h4>Project Artifacts</h4>
-                    <p>The project used a combination of ________________ all stored within the "design" folder and consists of:
+                    <p>The “ML Wine Quality” folder, which includes:
                     </p>
                 <ul>
-                    <li>___</li>
-                    <li>style.css file, which creates the css used on the site</li>
+                    <li>Final Whites RF Project-3 June2021.pkl, which is our pycaret model</li>
+                    <li>linear_regression_ML.ipynb, which were our linear regressions that we did not end up using</li>
+                    <li>logs.log, which are our logs from routes on the website</li>
+                    <li>reds_category_ML.ipynb, which is the ML for reds where we were only able to create and tune, but not finalize the data because of the model</li>
+                    <li>whites_category_ML.ipynb, which is the ML for whites</li>
+                    <li>wines_dataframes.ipynb, which was our file that imported the tables from SQL into Pandas</li>
                 </ul>
-                    <p>A series of html files that together create our website via a series of links:</p>
+                    <p>The “data” folder, which includes all of the .csv files we used in importing to SQL, Pandas, and our site:</p>
                 <ul>
-                    <li>analysis.html, which calls the .png files from the "output" folder</li>
-                    <li>data.html, which codes for the "Dataset" page of the website and codes for its table</li>
-                    <li>index.html, which codes for the "Wine Quality Overview" page of the website</li>
-                    <li>project_design.html, which codes for the "Project Design" page of the website</li>
-                    <li>wine_measurements.html, which codes for the "Wine Measurements" page of the website</li>
-                    <li>resources.html, which codes for the "Resources" page of the website</li>
-                    <li>visualizations.html, which codes for the "Visualizations" page of the website</li>
+                    <li>reds_df.csv</li>
+                    <li>whites_df.csv</li>
+                    <li>winequality-TOTAL.csv</li>
+                    <li>winequality-red-BROKENUP.csv</li>
+                    <li>winequality-red-updated.csv</li>
+                    <li>winequality-white-BROKENUP.csv</li>
+                    <li>Winequality-white-updated.csv</li>
                 </ul>  
-                    <p>A series of .js Javascript files to create our data tables, ___, and ___ which consists of:</p>
+                    <p>The “database” folder, which includes:</p>
                 <ul>
-                    <li>__</li>
-                    <li>__</li>
-                    <li>config.js, which contains the API key</li>
-                    <li>data_table.js, which pulls in data from the .csv and creates the data tables on our "Dataset" page</li>
-                    <li>__</li>
+                    <li>database_build.sql, which was our SQL file that created the tables and imported the data that we used to then import to Pandas</li>
                 </ul>  
+                <p>The “design” folder, includes:</p>
+                <ul>
+                    <li>Final Whites RF Project-3 June2021.pkl, which is our pycaret model</li>
+                    <li>app_ISD.py, which is our set up of Flask for the website</li>
+                    <li>logs.log, which are our logs from routes on the website</li>
+                </ul>  
+                <p>Within the “design” folder, the “static” folder includes:</p>
+                <ul>
+                    <li>Class Report.png, a picture of a visualization for our analysis page</li>
+                    <li>Feature Importance.png, a picture of a visualization for our analysis page</li>
+                    <li>data_table.js, a javascript file used to create the selectors and table on the dataset page</li>
+                    <li>model_accuracy.png, a picture of a visualization for our analysis page</li>
+                    <li>pycaretLogo.png, a picture of a visualization for our analysis page</li>
+                    <li>rf_accuracy.png, a picture of a visualization for our analysis page</li>
+                    <li>wine_pic.jpg, a picture for our overview page</li>
+                    <li>winequality-TOTAL.csv</li>
+                </ul>  
+                <p>Within the “static” folder within the “design” folder, the “css” folder includes:</p>
+                <ul>
+                    <li>sliderstyle.css, which styles the sliders on the model prediction page</li>
+                    <li>style.css, which styles the website </li>
+                </ul>  
+                <p>Within the “design” folder, the “templates” folder includes:</p>
+                <ul>
+                   <li>analysis.html, which calls the .png files from the "output" folder</li>
+                    <li>data.html, which codes for the dataset page of the website and codes for its table</li>
+                    <li>index.html, which codes for the wine quality overview page of the website</li>
+                    <li>predict_ISD.html, which codes for the model predictions page of the website</li>
+                    <li>project_design.html, which codes for the project design page of the website</li>
+                    <li>resources.html, which codes for the resources page of the website</li>
+                    <li>visualizations.html, which codes for the visualizations page of the website</li>
+                    <li>wine_measurements.html, which codes for the wine measurements page of the website</li>
+                </ul>            
                 <br>
                 <h4>Findings Recap</h4>
                 <p>__<br>__. More info on these associations can be found on the <a href="analysis.html">Analysis page.</a></p>
