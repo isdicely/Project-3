@@ -64,31 +64,53 @@
             <div class="col-md-12 body-section">
                 <h3>Analysis of the Machine Learning Models</h3>
                 <br>
-                <h4>Feature Importance Section</h4>
+                <img src="/static/pycaretLogo.png" alt="PyCaret Logo">
                 <br>
-                <img src="/static/Feature Importance.png" alt="Feature Importance Pic">
-                <br>    
-                <p>Here is the first section that has the Feature Importance picture and then explains all about that visualization and what it means
-                    </p>
+                <p>For our Machine learning we decided to go with the magic that is PyCaret. Mainly because it allows models to be evaluated, compared and tuned on a dataset with just a few lines of code.  It automates the major steps for evaluation and comparing different machine learning algorithms.<br> One of us used sklearn specifically while another used PyCaret, actually model we had similar amounts of code but sklearn was producing 1 model while PyCaret had evaluated 13. Again a lot can be achieved with very little code.</p>
                 <br>
+                <br>
+                <p>Once run we found the best models for our data according to PyCaret</p>
+                <br>
+                
+                
                 <h4>Accuracy of All the Models</h4>
                 <br>
                 <img src="/static/model_accuracy.png" alt="All Model Accuracy Pic">
                 <br>   
-                <p>Here is the second section that has the accuracy of all models picture and then explains all about that visualization and what it means
+                <p>Our top models ended up being:<br>
+                    Random Forest Classifier(rf) - Large number of individual decision trees that operate as an ensemble.
+                    One explanation that made sense to us as to why this model works so well was "A large number of relatively 
+                    uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models." 
+                    aka the power of many.<br>
+                    Light Gradient Boosting Machine(lightgbm) - Also a flavor of the decision tree ensemble method. While in the 
+                    random forest above each tree works individually the method here trees are added one at a time to the ensemble and fit 
+                    to correct the prediction errors made by the previous model, this is where the "boosting" comes from.<br>
+                    Extra Trees Classifier(et) - Also known as " Extremely Randomized Trees" introduces more variation into the ensemble. 
+                    Unlike the random forest the split of a decision stump/ root node is also random, this adds more variation to the model and makes it 
+                    less computationally expensive. The hope is to have a lower variance than the standard Random Trees Classifier.<br>
                     </p>
                 <h4>Accuracy of the Random Forest Model</h4>
                 <br>
                 <img src="/static/rf_accuracy.png" alt="Random Forest Model Accuracy Pic">
                 <br>    
-                <p>Here is the third section that has the accuracy of the Random Forest accuracy picture and then explains all about that visualization and what it means
+                <p>Here we can look at how our model did in terms of accuracy.<br>
+                    Accuracy specificaly meaning out of our predictions how many were predected correctly
+                    </p>
+                <h4>Feature Importance Section</h4>
+                <br>    
+                <img src="/static/Feature Importance.png" alt="Feature Importance Pic">
+                <br>    
+                <p>Our Feature Importance chart shows which features of wine have the most impact on its rating according to our model.
                     </p>
                 <br>
                 <h4>Class Report</h4>
                 <br>
                 <img src="/static/Class Report.png" alt="Visualizations2Pic">
                 <br>   
-                <p>Here is the fourth section that has the Class Report picture and then explains all about that visualization and what it means
+                <p>Here in our classification report we can see how our model did using the different measures used in machine learning.<br>
+                    A little confusing but the way our model works 0 is a high quality wine, 1 is a low quality wine, and 2 is a medium quality wine.<br>
+                    Some callouts here are that all our scores for Medium quality wines are very high. While High quality wines are a little more scattered, and Low quality wines don't even really exist.
+                    This points out some major flaws in our dataset discussed in previous visualizations, while we had a large dataset, most of it was for medium rated wines. This made it very difficult for our model to make proper determinations.
                     </p>
             </div>
         </div>
