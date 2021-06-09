@@ -37,6 +37,13 @@
     cursor: pointers; /* Cursor on hover */
   }
 
+  DIV.containerPred {
+    min-height: 10em;
+    /* vertical-align: left;  */
+    position:relative; 
+    right:200px;
+  }
+
   .sliderTable 
     th{
       text-align: center;
